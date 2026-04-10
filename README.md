@@ -30,7 +30,15 @@ composer install
 cp config/app_local.example.php config/app_local.php
 ```
 
-3. Add a `.env` file if you plan to use `IdentityBridge` with Appwrite.
+3. Create a local environment file:
+
+```bash
+cp sample.env .env
+```
+
+Update the values in `.env` for your project. At minimum, set `SECURITY_SALT`
+and `DATABASE_URL`. Appwrite variables are only needed if you plan to keep
+`IdentityBridge` with Appwrite.
 
 4. Run the base migration:
 
