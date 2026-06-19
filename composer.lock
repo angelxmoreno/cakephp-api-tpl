@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e601002829857a0d469667727724440e",
+    "content-hash": "802b0a684aff43581711c77c6fd43299",
     "packages": [
         {
             "name": "appwrite/appwrite",
-            "version": "23.0.0",
+            "version": "26.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/appwrite/sdk-for-php.git",
-                "reference": "d22b36167931294bec4259f0803aba14537030ec"
+                "reference": "bc26d0f0cfa4699de12d6af4df70ac0729ab7918"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/appwrite/sdk-for-php/zipball/d22b36167931294bec4259f0803aba14537030ec",
-                "reference": "d22b36167931294bec4259f0803aba14537030ec",
+                "url": "https://api.github.com/repos/appwrite/sdk-for-php/zipball/bc26d0f0cfa4699de12d6af4df70ac0729ab7918",
+                "reference": "bc26d0f0cfa4699de12d6af4df70ac0729ab7918",
                 "shasum": ""
             },
             "require": {
@@ -27,7 +27,7 @@
             },
             "require-dev": {
                 "mockery/mockery": "1.6.12",
-                "phpunit/phpunit": "^10"
+                "phpunit/phpunit": "^12"
             },
             "type": "library",
             "autoload": {
@@ -43,10 +43,10 @@
             "support": {
                 "email": "team@appwrite.io",
                 "issues": "https://github.com/appwrite/sdk-for-php/issues",
-                "source": "https://github.com/appwrite/sdk-for-php/tree/23.0.0",
+                "source": "https://github.com/appwrite/sdk-for-php/tree/26.0.0",
                 "url": "https://appwrite.io/support"
             },
-            "time": "2026-04-16T12:38:44+00:00"
+            "time": "2026-06-17T04:32:07+00:00"
         },
         {
             "name": "cakephp/authorization",
